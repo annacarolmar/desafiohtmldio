@@ -1,62 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desafio DIO.me</title>
+    
 </head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
-
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
-
-</body>
+    <body>
+        <h1 id="topo">Introdução ao HTML na prática</h1>
+        
+        <hr>
+        
+        <h2>Súmula</h2>
+        <ul>
+            <li><a href="#estruturabasicahtml">Estrutura Básica do HTML</a></li>
+            <li><a href="#tagseseufuncionamento">Tags e seu funcionamento</a></li>
+            <li><a href="#atributosdastags">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listasordenadasenaoordenadas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#linksesuascaracteristicas">Links e suas características</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+        </ul>
+        <hr>
+        <h2 id="estruturabasicahtml">Estrutura Básica de HTML<a href="#topo"><small>[Voltar]</small></a></h2>
+            <p>
+                Todo projeto em HTML tem como nome da página inicial, por concordancia virtual, o termo index.html.
+            </p>
+            <p>
+                A forma básica das paginas se dá em <strong><i>quatro tags principais</i></strong>.São elas:
+                <ul>
+                    <li>Html: Contém as configurações da pagina</li>
+                    <li>Head: O conteúdo aqui escrito não aparece na página. Aqui pode ser escrito também o nome a ser dado para a guia.</li>
+                    <li>Body: Parte em que se encontra toda a estrutura visual do site. Aqui se encontram titulos, textos, fotos e etc.</li>
+                    <li>Footer: Como o nome sugere, é o rodapé da pagina. Nele se encontram informações legais, pertinentes a todo o conteúdo da página, links para páginas importantes e outros recursos relevantes.</li>
+                </ul>
+            </p>
+        <h2 id="tagseseufuncionamento">Tags e seu funcionamento<a href="#topo"><small>[Voltar]</small></a></h2>
+        <p>
+            A definição mais simples de tags é que são elementos que marcam e formatam o conteúdo do HTML. Cada tag tem um nome e uma sintaxe a ser usada. Para determinar tem que ser aberta e fechada.
+        </p>
+        <p>
+        <strong>Exemplos de tags:</strong>
+                <ul>
+                    <li>< p > Conteúdo < /p > : define um parágrafo;</li>
+                    <li>< i > Conteúdo < /i > : deixa o conteúdo em itálico;</li>
+                    <li>< strong > Conteúdo < /strong > : aplica efeito de negrito.</li>
+                </ul>
+            
+        <h2 id="atributosdastags">Atributos das Tags<a href="#topo"><small>[Voltar]</small></a></h2>
+            <p>As tags em HTML podem receber caracteristicas que modificam seu comportamento e que podem <strong>atribuir</strong> regras e delimitação.  </p>
+            <p>Existem tags em que para inserir atributos a elas, é necessário coloca-los entre os '< >' de inicio.</p>
+            <p>Assim também existem atributos genéricos, que são utilizados em quase todas as tags(como <i>id</i> e <i>class</i>)e até especificos(como <i>type</i>).</p>
+            
+            <p><strong>Exemplo de Tags com Atributos:</strong></p>
+            <ul>
+                <li><strong>< img src="link" ></strong> o atributo <u>src</u> define o link da imagem;</li>
+                <li><strong>< input type="text" ></strong> o atributo <u>type</u> define o tipo do campo.</li>
+            </ul>
+        <h2 id="textos">Textos<a href="#topo"><small>[Voltar]</small></a></h2>
+        <p>Fazendo parte da nomenclatura da tecnologia, aos textos também podem ser atribuidos estilizações para uma experiencia visual mais agradável.</p>
+        <p><strong>Esses efeitos são:</strong></p>
+        <ul>
+            <li>
+                <p>Rabisco com <strong>< del >< /del ></strong>: Palavra <del>rabiscada</del></p>
+            </li>
+            <li>
+                <p>Itálico com <strong>< i >< /i ></strong>: Palavra em <i>itálico</i></p>
+            </li>
+            <li>
+                <p>Marcação com <strong>< mark >< /mark ></strong>: Palavra <mark>marcada</mark></p>
+            </li>
+        </ul>
+        <h2 id="listasordenadasenaoordenadas">Listas Ordenadas e Não Ordenadas<a href="#topo"><small>[Voltar]</small></a></h2>
+        <p>Listas são basicamente o que chamamos de tabulação.</p>
+        <p>É inicialmente formada por uma tag "mãe", que define seu tipo, seguida de seus "filhos"</p>
+        <h3>Listas Ordenadas:</h3>
+        <p>Listas <u>ordenadas</u> são construídas a partir da tag <strong>< ol >< /ol ></strong>, e dentro dessa tag, os itens com a tag <strong>< li >< /li </strong>.</p>
+        <p>Exemplo:</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <h3>Lista Não Ordenadas:</h3>
+        Listas <u>não ordenadas</u> são construídas a partir da tag <strong>< ul >< /ul ></strong>, e dentro dessa tag, os itens com a tag <strong>< li >< /li ></strong>.
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h2 id="linksesuascaracteristicas">Links e suas características<a href="#topo"><small>[Voltar]</small></a></h2>
+        <p>O uso de link se dá pela necessidade de conectar paginas e/ou outros sites. A tag utilizada é <strong>< a >< /a ></strong><. É necessário também atribuir "href" à tag e incluir o link de destino.</p>
+        <p>Exemplo:</p>
+        <p>< a <strong>href</strong> = <strong>"link"</strong >Clique aqui< /a ></mark></p>
+        
+        <h3>Como abrir links em outras abas:</h3>
+        <p>Clicando em um link, de forma padronizada, ele irá redirecionar a página atual. De forma a ficar mais organizado, existe uma forma de abrir em uma nova aba do navegador.Para isso, existe o atributo <i>target</i> que pode receber o valor <i>_blank.</i></p>
+        <p>Exemplo:</p>
+        < a href="link" <strong>target="_blank"</strong >Clique aqui< /a ></mark>
+        <h3>Ancoragem</h3>
+        <p>Outra possibilidade criada por essa ferramenta é a <u>Ancoragem.</u> Através dela podemos conectar diferentes regiões da mesma página. Uma espécie de links de navegação.</p>
+        <p>Para "alocar" as sessões é necessário utilizar do simbolo <strong>#</strong> seguido do <strong>id</strong> da tag alvo. A mesma <u>precisa</u> ter o id, pois é necessário para a ancoragem</p>
+    </body>
+    <footer>
+        <h2 id="referencias">Referencias<a href="#topo"><small>[Voltar]</small></a></h2>
+        <ul>
+            <li><a href="https://www.dio.me" title="Clique e acesse" target="_blank">DIO.me</a></li>
+            <li><a href="https://www.youtube.com/watch?v=E6CdIawPTh0" title="Acessa Curso em Vídeo" target="_blank">Seu primeiro código HTML | Curso em Vídeo</a></li>
+            <li><a href="https://www.w3schools.com/TAGs/" title="Acessa W3Schools" target="_blank">Todas as tags HTML</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals" title="Acessa Mozilla.org" target="_blank">Fundamentos de texto em HTML - Mozilla.org</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" title="Acessa Mozilla.org" target="_blank">Criando Hyperlink - Mozilla.org</a></li>
+        </ul>
+    </footer>
 </html>
